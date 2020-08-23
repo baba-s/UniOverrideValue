@@ -56,7 +56,7 @@ namespace Kogane
 			return IsOverride ? m_value : defaultValue;
 		}
 
-		public void ApplyIfOverride( ref T target )
+		public void Override( ref T target )
 		{
 			if ( !IsOverride ) return;
 			target = m_value;
