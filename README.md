@@ -27,7 +27,7 @@ public class Example : MonoBehaviour
         // Inspector でチェックされている場合は
         // Inspector で設定されている値を引数に設定
         var result2 = string.Empty;
-        m_string.ApplyIfOverride( ref result2 );
+        m_string.Override( ref result2 );
     }
     
 }
