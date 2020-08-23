@@ -21,7 +21,8 @@ namespace Kogane.Internal
 			isOverrideRect.width = 16;
 
 			var valueRect = position;
-			valueRect.x = 40;
+			valueRect.x     = 40;
+			valueRect.width = position.width - isOverrideRect.width;
 
 			isOverrideProperty.boolValue = EditorGUI.Toggle( isOverrideRect, isOverrideProperty.boolValue );
 
