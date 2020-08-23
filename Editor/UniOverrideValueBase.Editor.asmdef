@@ -1,0 +1,17 @@
+{
+    "name": "UniOverrideValueBase.Editor",
+    "references": [
+        "GUID:9c46b074dab3a0948b1ea9233a4f10f1"
+    ],
+    "includePlatforms": [
+        "Editor"
+    ],
+    "excludePlatforms": [],
+    "allowUnsafeCode": false,
+    "overrideReferences": false,
+    "precompiledReferences": [],
+    "autoReferenced": false,
+    "defineConstraints": [],
+    "versionDefines": [],
+    "noEngineReferences": false
+}
