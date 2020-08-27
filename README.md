@@ -1,5 +1,7 @@
 # UniOverrideValue
 
+Inspector にチェックボックス付きのフィールドを表示できる機能  
+
 ## 使用例
 
 ```cs
